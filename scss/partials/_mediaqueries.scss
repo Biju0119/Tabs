@@ -1,0 +1,788 @@
+@media (#{$sm-1199}) {
+  /*=== Responsive Menu ===*/
+.mob-menu {
+  border: none;
+  color: #fff;
+  padding: 6px 0 11px 0;
+  background: #191919;
+  z-index: 110;
+  width: 55px;
+  border-radius: 3px;
+  margin: -80px 150px 0 0;
+  float: right;
+}
+
+.mob-menu span {
+  background: #fff;
+  display: block;
+  height: 3px;
+  position: relative;
+  width: 35px;
+  margin: 5px 10px 0 10px;
+  float: left;
+}
+
+.open .menu {
+  right: 0px;
+  top: 0;
+  height: 100%;
+}
+
+.open .overlay {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 100%;
+  height: 100%;
+  background: rgba(0, 0, 0, 0.5);
+  z-index: 120;
+}
+
+.menu {
+  width: 280px;
+  height: 100%;
+  position: fixed;
+  top: 0px;
+  background: #151718;
+  padding: 0px;
+  margin: 0px;
+  overflow-y: scroll;
+  transition: all 0.3s;
+  z-index: 1002;
+  right: -280px;
+  text-align: left;
+}
+
+.menu ul {
+  background: none;
+  display: block;
+}
+
+.menu li {
+  float: none !important;
+}
+
+.menu ul li a {
+  padding: 10px;
+  border-bottom: 1px solid #232426;
+  border-top: 0;
+}
+
+.menu ul ul li a {
+  border-bottom: 1px solid #232426;
+  border-top: 0;
+}
+
+.menu ul ul ul li a {
+  padding: 10px 30px;
+}
+
+.menu a:hover,
+.menu ul ul li a:hover {
+  background: #151718;
+}
+
+.menu ul li:hover > ul {
+  display: none;
+}
+
+.menu ul li:hover {
+  background: #151718;
+}
+
+.menu li.submenu i {
+  position: absolute;
+  width: 43px;
+  height: 39px;
+  top: 0;
+  right: 0;
+  cursor: pointer;
+  background: #232426;
+}
+
+.submenu.open>i:after {
+  transform: rotate(180deg);
+  -webkit-transform: rotate(180deg);
+}
+
+.submenu.open > ul {
+  display: block !important;
+  top: 0;
+  left: 0;
+  position: inherit;
+  background: #151718;
+}
+
+.menu li.submenu i:after {
+  content: "";
+  height: 0;
+  width: 0;
+  border-left: 3px solid transparent;
+  border-right: 3px solid transparent;
+  border-top: 6px solid #ccc;
+  position: absolute;
+  right: 17px;
+  top: 16px;
+  z-index: 10;
+}
+
+.menu ul ul ul {
+  left: 0;
+}
+
+.menu li.submenu li:last-child {
+  border: 0;
+}
+.menu .tmenu{
+  display: block;
+}
+/*==== Responsive Menu End ====*/
+.top-menu{
+  display: none;
+}
+.banner{
+  height: 550px;
+}
+.banner-txt{
+  padding: 120px 0 0 0;
+}
+.banner-txt h2{
+  font-size: 50px;
+  line-height: 50px;
+  text-shadow: 0 2px 0 #fff;
+}
+.banner-txt h3{
+  font-size: 30px;
+  line-height: 30px;
+  text-shadow: 0 2px 0 #fff;
+}
+.banner-txt ul a{
+  font-size: 40px;
+  line-height: 42px;
+  text-shadow: 0 2px 0 #fff;
+}
+.banner-txt .banner-btn{
+  font-size: 26px;
+}
+.prlx div {
+    transform: none !important;
+    -webkit-transform: none !important;
+    top: 0;
+  }
+  .cur-prmo{
+    top: -16px;
+  }
+  .top-socialmedia{
+    margin: 20px 0 0 140px
+  }
+  .top-call{
+    margin: 20px 0 0 40px
+  }
+  .slim-header .top-socialmedia, .slim-header .top-call{
+    margin-top: 20px;
+  }
+  .slim-header .mob-menu{
+    margin-top: -71px;
+  }
+  .home-content{
+    margin-top: 0;
+  }
+  .made-eassy{
+    width: 65%;
+  }
+  .made-eassy-right{
+    width: 35%;
+  }
+  .hidden-md{
+    display: none;
+  }
+  .made-eassy-right img{
+    margin: 0 0 20px 0;
+    float: left;
+  }
+  .non-surgical-h .non-sur-text, .non-surgical-h .non-sur-pic{
+    float: right;
+    width: 100%;
+  } 
+  .non-surgical-h .right-tab-menu{
+    margin-top: 50px;
+  }
+   .non-surgical-h .non-sur-pic img{
+    width: 299px;
+  }
+  .non-surgical-h .text-div, .non-surgical-h .pic-div{
+    padding: 0 15px;
+  }
+  .non-surgical-h .right-tab-menu h2{
+    font-size: 23px;
+    margin:16px 0;
+  }
+  .coolsculpting h3{
+    font-size: 42px;
+  }
+  .coolsculpting p{
+    font-size: 28px;
+  }
+  .non-surgical-h .non-sur-text .read-more{
+    margin-top: 20px;
+  }
+  .video-gallery .tab-nav{
+    width: 38%;
+  }
+  .video-gallery .resp-tabs-container{
+    width: 62%;
+  }
+  .tab-nav{
+    padding-bottom: 20px;
+  } 
+  .video-gallery .resp-tabs-container{
+    margin: 20px 0 0 0;
+    padding: 0 20px 0 0;
+  }
+  #map{
+    height: 450px;
+  }
+  .contact-bx address{
+    font-size: 15px;
+    span{
+      font-size: 16px;
+    }
+  }
+  .contact-bx{
+    padding-bottom: 60px;
+  }
+  .menu li.submenu > a:after{
+    display: none;
+  }
+  .surgical-h{
+    background-position: 155% 0;
+  }
+  .slim-header{
+    border-bottom: 1px solid #ccc;
+  }
+
+
+.inner-banner   { width: 100%; height: 360px; background-position: 40%;
+  .qcf { width: 70%; float: right;  padding-top: 120px; padding-left: 50px;  
+    .h1 { font: 300 30px/30px $body-font; }
+    .h2 { font: 300 20px/25px $body-font; }
+    .qcf-btn {
+      .btn { padding: 10px; font-size: 15px; }
+    }    
+  }
+}
+
+.abt-txt  { background: #6B6F34; padding: 30px; height: auto;
+
+  h1 { font: 300 25px/20px $body-font; color: #fff; padding: 6px 0px; }
+  p { font: 300 13px/21px $body-font; color: #fff; padding: 6px 0px;}
+}
+
+
+.abt-bot { padding: 20px 10px; }
+.gal-box-detl {margin: 10px 0px;}
+
+
+}
+
+
+
+
+@media (#{$sm-991}) {
+  /* Tab */
+ ul.resp-tabs-list {
+        display: none;
+    }
+
+    h2.resp-accordion {
+        display: block;
+    }
+
+    .resp-vtabs .resp-tab-content {
+        border: 1px solid #C1C1C1;
+    }
+
+    .resp-vtabs .resp-tabs-container {
+        border: none;
+        float: none;
+        width: 100%;
+        min-height: 100px;
+        clear: none;
+    }
+
+    .resp-accordion-closed {
+        display: none !important;
+    }
+
+    .resp-vtabs .resp-tab-content:last-child {
+        border-bottom: 1px solid #c1c1c1 !important;
+    }
+    /* Tab End */
+    .mob-menu{
+      margin: -60px 242px 0 0;
+    }
+    .top-socialmedia{
+      margin: 20px 0 0 20px;
+    }
+    .top-call{
+      margin: 20px 0 0 20px;
+    }
+.slim-header {
+  .logo {
+    width: 220px;
+  }
+  .mob-menu {
+    margin-top: -60px;
+  }
+}
+.banner-txt {
+  margin-top: 50px;
+}
+.banner-txt {
+  background-position: 80% 50px;
+}
+.banner-txt ul a {
+  font-size: 36px;
+  line-height: 38px;
+}
+.made-eassy-right {
+  padding: 45px 0;
+
+  img {
+    margin: 15px 0;
+  }
+}
+.surgical-h {
+  background: #f6f6f6;
+  min-height: inherit;
+}
+.surgical-tab {
+  width: 100%;
+}
+.surgical-h h2 {
+  margin: 0 0 20px 0;
+}
+.surgical-tab {
+  .resp-accordion {
+    margin: 0;
+    font: 500 16px/24px $body-font;
+    padding: 8px 10px;
+    border-bottom: 1px solid #b9bb9f;
+  }
+  .resp-tab-content {
+    border: 1px solid $main-color;
+    border-top: 1px solid #fff;
+    padding: 20px;
+  }
+  .resp-tab-active {
+    background: $main-color;
+    color: #fff;
+
+    .resp-arrow {
+      border-bottom: 12px solid #fff;
+    }
+  }
+  .resp-accordion:last-child {
+    border: 0 !important;
+  }
+}
+.surgical-tab .resp-tabs-container img {
+  margin: 0 auto 20px auto;
+  display: block;
+}
+.non-surgical-tab {
+  position: relative;
+  padding-top: 60px 0 0 0;
+
+  .resp-vtabs {
+    margin-top: 80px !important;
+  }
+  .resp-accordion {
+    margin: 0;
+    font: 500 16px/24px $body-font;
+    padding: 8px 10px;
+    border-bottom: 1px solid #b9bb9f;
+  }
+  .resp-tab-content {
+    border: 1px solid $main-color;
+    border-top: 1px solid #fff;
+    padding: 20px;
+  }
+  .resp-tab-active {
+    background: $main-color;
+    color: #fff;
+
+    .resp-arrow {
+      border-bottom: 12px solid #fff;
+    }
+  }
+  .resp-accordion:last-child {
+    border: 0 !important;
+  }
+}
+.non-surgical-h .right-tab-menu {
+  width: 100%;
+  position: absolute;
+  top: -70px;
+  margin: 0;
+  background: inherit;
+  padding: 0;
+  h2{
+    a{
+      color: #000;
+      font-weight: 400;
+    }
+  }
+  
+}
+.non-surgical-h .resp-tab-content{
+  margin: 0;
+}
+.coolsculpting .pd-left-none{
+  padding: 15px;
+}
+.coolsculpting h3, .coolsculpting p{
+  padding:10px 15px;
+  float: left;
+}
+.coolsculpting p{
+  margin-top: 20px;
+}
+.video-gallery .slimScrollDiv{
+  display: none;
+}
+.video-gallery {
+  .resp-vtabs{
+    padding: 0 15px;
+  }
+  .resp-accordion {
+    margin: 0;
+    font: 500 16px/24px $body-font;
+    padding: 8px 10px;
+    border-bottom: 1px solid #b9bb9f;
+  }
+  .resp-tab-content {
+    border: 1px solid $main-color;
+    border-top: 1px solid #fff;
+    padding: 20px;
+  }
+  .resp-arrow {
+      border-top: 12px solid #fff;
+    }
+  .resp-tab-active {
+    background: #DFDEB7;
+    color: #000;
+
+    .resp-arrow {
+      border-bottom: 12px solid $main-color;
+    }
+  }
+  .resp-tabs-container{
+    padding: 0 0 15px 0;
+  }
+.resp-tab-content-active{
+  background: #DFDEB7;
+  border: 1px solid #DFDEB7;
+}
+}
+.video-gallery .tab-nav{
+  display: none;
+}
+.pd-r{
+  padding-right: 15px;
+}
+.recent-blog{
+  padding: 30px 15px 0 15px;
+}
+.footer-top{
+  .no-gutter{
+    padding: 0 15px;
+  }
+}
+.pd-m{
+  padding: 0 15px;
+}
+.non-surgical-h .non-sur-text h3{
+  font-size: 26px;
+}
+.non-surgical-h .right-tab-menu h2 a:hover{
+  color: $main-color;
+}
+.footer-links{
+  padding: 0;
+  text-align: center;
+}
+.contact-bx{
+  padding-bottom: 25px;
+}
+#map {
+    margin-top: 35px;
+}
+.non-surgical-h .non-sur-text{
+  padding: 20px;
+}
+
+    .abt-txt { height: auto;
+  h1 { padding: 10px 0;}
+  p { font-size: 16px;}
+}
+
+.abt-bot { padding: 20px 10px; }
+
+.footer-links { padding: 20px 0px }
+
+
+.gallery { padding-left: 0px;}
+.gal-slider  { margin-bottom: 50px; padding-top: 0px;}
+
+}
+
+
+@media (max-width: 979px){
+.mob-menu{
+      margin: -60px 150px 0 0;
+}
+}
+@media (max-width: 799px){
+.mob-menu{
+      margin: -60px 136px 0 0;
+}
+}
+@media (#{$sm-767}) {
+  .logo{
+    text-align: center;
+    img{
+      width: 230px;
+    }
+  }
+  .slim-header .logo{
+    width: inherit;
+  }
+  .top-socialmedia, .top-call, .slim-header .top-socialmedia, .slim-header .top-call{
+    margin: 0 10px;
+    float: none;
+    display: inline-block;    
+  }
+  .top-socialmedia a{
+    margin: 0 5px;
+  }
+  .top-right-h{
+    text-align: center;
+  }
+  .cur-prmo{
+    bottom: -45px;
+    width: 100%;
+    background: #B70101;
+    top: inherit;
+    height: 40px;
+    padding: 0;
+    line-height: 42px;
+  }
+  .header{
+    padding-bottom: 45px;
+    position: relative;
+  }
+  .mob-menu, .slim-header .mob-menu{
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    margin: 0;
+  } 
+  .made-eassy{
+    width: 100%;
+    padding: 25px;
+  }
+  .recent-blog-text{
+    padding: 25px;
+  }
+  .made-eassy-right{
+    width: 100%;
+    text-align: center;
+    padding: 15px 0;
+    img{
+      display: inline-block;
+      float: none;
+      margin: 0 8px;
+    }
+    .hidden-md{
+      display: none;
+    }    
+  }
+  .banner{
+      height: 400px;
+    }
+    .banner-txt{
+      margin: 0;
+    }
+    .footer-links{
+      padding: 0 0 15px 0;
+      text-align: center;
+      li{
+        border-bottom: 1px dashed #555;
+        padding: 3px 0 5px 0;
+        &:last-child{
+          border: 0;
+        }
+      }
+    }
+    .free-consultation{
+      padding: 30px 0;
+    }
+    .contact-bx{
+      padding: 15px;
+      text-align: center;
+    }
+    .footer-top .social-media{
+      a{
+        float: none;
+        display: inline-block;
+      }
+    }
+    .made-eassy h1{
+      font-size: 29px;
+    }
+    .home-content{
+      position: inherit;
+    }
+    .coolsculpting{
+      text-align: center;
+      padding-bottom: 5px;
+    }
+.coolsculpting h3{
+  font-size: 28px;
+}
+.coolsculpting p{
+  padding: 4px 0 0 0;
+  font-size: 24px;
+}
+.read-more{
+  padding: 18px 16px;
+}
+.banner-txt{
+  padding: 60px 0 20px 0;
+  background-position: 100% 10px;
+  h2{
+    font-size: 44px;
+    line-height: 44px;
+  }
+}
+.banner-txt ul a {
+    font-size: 27px;
+    line-height: 29px;
+}
+.video-gallery h2{
+  margin-top: 25px;
+}
+.cons-from h2, .video-gallery>h2, .non-surgical-h .right-tab-menu h2, .surgical-h .container > h2{
+  font-size: 22px;
+  text-align: center;
+}
+.surgical-h{
+  padding: 20px 0;
+  margin-top: 20px;
+}
+#map {
+    height: 300px;
+}
+
+.inner-banner   { width: 100%; height: 300px; background-position: 0%; background: url(../img/mb-banner.jpg) no-repeat; background-size: cover;
+  .qcf { width:100%; float: none;  padding: 20px 0;  background: rgba(#000,.3);
+   margin: 100px 0 0 0;
+    .h1 { font: 300 20px/20px $body-font; color: #fff; }
+    .h2 { font: 300 15px/20px $body-font; color: #fff; }
+    .qcf-btn {
+      .btn { background: #457293; padding: 5px; font: 300 13px/20px $body-font;
+      
+    }
+    }
+    
+  }
+}
+
+
+
+
+.inner-content-area  { padding: 10px 0px;}
+
+
+.content-section { padding: 10px 0px; 
+  h1 { font: 300 25px/20px $body-font; color: #000; padding: 5px 0px; }
+  p { font: 300 14px/20px $body-font; color: #000;}
+  h3 { font: 300 20px/20px $body-font; color: #000;}
+  ul {
+    li { font-size: 14px; background-position: 0 12px;}
+  }
+}
+
+
+
+
+.abt-txt  { background: #6B6F34; padding: 20px 20px; height: auto;
+
+  h1 { font: 300 25px/20px $body-font; color: #fff; padding: 5px 0px; }
+  p { font: 300 14px/20px $body-font; color: #fff; padding: 5px 0px;}
+}
+
+
+.abt-bot { padding: 20px 20px; }
+
+
+
+
+.gallery { padding: 0px 20px;}
+
+.select  { width: 100%;}
+.in-top  {
+  h3 { width: 100%;}
+
+}
+
+.gal-box-detl  { margin: 10px 0px;}
+
+
+.in-sd-bar .sd-link { width:100%;} 
+
+
+}
+@media (max-width: 639px){
+.banner-txt h2 {
+    font-size: 32px;
+    line-height: 34px;
+}
+.banner-txt ul a {
+    font-size: 20px;
+    line-height: 24px;
+}
+.banner{
+  height: 460px;
+}
+.banner-txt .banner-btn{
+  font-size: 24px;
+  width: 100%;
+  margin: 8px 0;
+}
+}
+@media (#{$sm-479}) {
+ .mob-menu, .slim-header .mob-menu{
+  bottom: 50px;
+  top: inherit;
+ } 
+ .cf-360{
+  display: block;
+ }
+ .banner-txt .banner-btn{
+  font-size: 20px;  
+ }
+ .coolsculpting h3{
+  padding: 0 15px;
+  margin: 5px 0;
+ }
+ .coolsculpting p{
+  padding: 0 20px;
+  margin: 0;
+ }
+ .blog-r-pic{
+  width: 100%;
+  height: auto; 
+ }
+}
